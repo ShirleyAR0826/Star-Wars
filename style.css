@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+  }
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+}
